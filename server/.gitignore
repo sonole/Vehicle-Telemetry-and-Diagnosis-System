@@ -2,6 +2,7 @@
 /public/storage
 /vendor
 .phpunit.result.cache
+.env
 auth.json
 npm-debug.log
 /.fleet

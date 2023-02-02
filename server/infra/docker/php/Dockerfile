@@ -35,6 +35,7 @@ RUN apt-get update \
   && composer config -g repos.packagist composer https://packagist.org
 
 RUN apt-get update \
+  && apt-get -y install nano \
   && apt-get -y install npm
 
 FROM base AS development
