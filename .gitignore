@@ -1,0 +1,10 @@
+/node_modules
+/public/storage
+/vendor
+.env
+.phpunit.result.cache
+auth.json
+npm-debug.log
+/.fleet
+/.idea
+/.vscode

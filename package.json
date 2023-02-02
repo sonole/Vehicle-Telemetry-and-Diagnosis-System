@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "build": "cross-env NODE_ENV=production webpack --config build/webpack.config.js",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "watch-poll": "npm run watch -- --watch-poll",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "tail": "tailwindcss -i ./resources/css/app.css -o ./public/css/tail.css --watch"
+  },
+  "devDependencies": {
+    "air-datepicker": "^3.3.3",
+    "axios": "^1.1.2",
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.49",
+    "laravel-vite-plugin": "^0.7.0",
+    "lodash": "^4.17.19",
+    "postcss": "^8.1.14",
+    "tailwindcss": "^3.2.4",
+    "vite": "^3.0.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "name": "telematic",
+  "description": "<p align=\"center\"><a href=\"https://laravel.com\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg\" width=\"400\" alt=\"Laravel Logo\"></a></p>",
+  "version": "1.0.0",
+  "main": "vite.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
