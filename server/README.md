@@ -15,8 +15,10 @@ Build a simple laravel development environment with docker-compose. Compatible w
 ```bash
 $ docker compose up -d
 $ docker exec -it tele-app-1 /bin/bash
+$ composer install
 $ php artisan migrate
 $ php artisan db:seed
+$ nano .env
 ```
 
 ### Laravel setup
