@@ -11,5 +11,5 @@ $ php artisan migrate
 $ php artisan db:seed
 $ nano .env
 ```
-php artisan tcp:start 
+php artisan tcp:start  
 php artisan tcp:stop
