@@ -13,8 +13,8 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
-          \App\Console\Commands\StartTCPServer::class,
+        \App\Console\Commands\StartTCPServer::class,
+        \App\Console\Commands\StopTCPServer::class,
     ];
 
     /**
