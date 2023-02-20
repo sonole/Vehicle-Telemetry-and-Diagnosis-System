@@ -1,8 +1,4 @@
-# docker-laravel 🐳
-
-## Introduction
-## Usage
-### Laravel install
+## Installation
 
 //maybe remove npm from php/Dockerfile
 ```bash
