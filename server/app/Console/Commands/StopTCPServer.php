@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 
-class StopStartTCPServer extends Command
+class StopTCPServer extends Command
 {
     protected $signature = 'tcp:server:stop:starttcp';
     protected $description = 'Stop the running instance of the StartTCPServer command';
