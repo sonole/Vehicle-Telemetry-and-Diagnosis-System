@@ -15,6 +15,6 @@ $ php artisan migrate
 $ php artisan db:seed
 $ nano .env
 ```
-
+docker exec ........php artisan tcp:start 
 
 
