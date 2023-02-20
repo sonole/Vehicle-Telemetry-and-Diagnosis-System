@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 
 class StopTCPServer extends Command
 {
-    protected $signature = 'tcp:server:stop:starttcp';
+    protected $signature = 'tcp:stop';
     protected $description = 'Stop the running instance of the StartTCPServer command';
 
     public function handle()
