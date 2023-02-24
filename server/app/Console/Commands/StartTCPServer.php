@@ -13,9 +13,12 @@ class StartTCPServer extends Command
 
     public function handle()
     {
-        $tcpServer = new TCPServerService();
-        $tcpServer->start();
-
-        file_put_contents($this->pidFile, getmypid());
+        if (class_exists('App\Services\TCPServerService')) {
+            $tcpServer = new TCPServerService();
+            $tcpServer->start();
+            file_put_contents($this->pidFile, getmypid());
+        } else {
+            echo 'Error: TCPServerService class not found.'.PHP_EOL.PHP_EOL;
+        }
     }
 }
