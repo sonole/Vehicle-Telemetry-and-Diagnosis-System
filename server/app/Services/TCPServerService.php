@@ -10,7 +10,7 @@ class TCPServerService
 
     public function start()
     {
-        $this->socket = stream_socket_server("tcp://127.0.0.1:8282", $errno, $errstr);
+        $this->socket = @stream_socket_server("tcp://0.0.0.0:8282", $errno, $errstr);
 
         if (!$this->socket) {
             Log::error("Error starting server: $errstr");
