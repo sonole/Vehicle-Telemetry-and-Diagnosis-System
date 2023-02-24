@@ -25,25 +25,30 @@
 <p>
 
 <ul>
-  <li>Hardware</li>
+  <li>for Client</li>
     <ol type="1">
-    <li>Arduino Nano ATmega328</li>
-    <li>GSM/GPRS Shield SIM900</li>
-    <li>Ublox NEO-7M GPS Module </li>
-    <li>CAN Bus Module - MCP2515</li>
-    <li>Step-Down Voltage Regulator 7V 1A</li>
-    <li>Step-Down Voltage Regulator 5V 3A</li> 
-    <li>OBD-II 16 pin male</li>
+        <li>Arduino IDE + libraries installed</li> //TODO
+        <li>Arduino Nano ATmega328</li>
+        <li>GSM/GPRS Shield SIM900</li>
+        <li>Ublox NEO-7M GPS Module </li>
+        <li>CAN Bus Module - MCP2515</li>
+        <li>Step-Down Voltage Regulator 7V 1A</li>
+        <li>Step-Down Voltage Regulator 5V 3A</li> 
+        <li>OBD-II 16 pin male</li>
     </ol>
-  <li>Software</li>
-  <ol type="1">
-  <li>Termite 2.6</li>
-  <li>SocketTest3</li>
-  <li>CAN Hacker 2</li>
-  <li>OBD Simulator</li>
-  </ol>
+  <li>for Server</li>
+    <ol type="1">
+        <li>Docker</li>
+    </ol>
+  <li>Good to have when developing</li>
+    <ol type="1">
+        <li>Termite 2.6</li>
+        <li>SocketTest3</li>
+        <li>CAN Hacker 2</li>
+        <li>OBD Simulator</li>
+    </ol>
 </ul>
-Note: you can use Socet Test 3 to send and receive packets via GSM. For that you will need to add a port forwarind rule at your router and then create a rule at Windows Firewall to accept the packets at your port/IP.
+Note: you can use Socket Test 3 to send and receive packets via GSM. For that you will need to add a port forwarind rule at your router and then create a rule at Windows Firewall to accept the packets at your port/IP.
 </div>
 <br><hr><br>
 
