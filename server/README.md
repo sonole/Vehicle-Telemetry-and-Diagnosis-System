@@ -9,14 +9,15 @@ $ docker exec -it server-app-1 /bin/bash
 $ composer install
 ```
 
-While you are still on the shell of the docker container you should edit the .env file
+While you are still on the shell of the docker container you should edit the .env file and add at the bottom the GOOGLE_MAPS_API_KEY
 ```bash
 $ nano .env
 ```
 
 Migrate the database, and seed it to test the app
 ```bash
-$ nano .env
+$ php artisan migrate
+$ php artisan db:seed
 ```
 
 Now that everything is ok you can start the tcp services to accept packages 
