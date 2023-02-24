@@ -14,11 +14,7 @@ While you are still on the shell of the docker container you should edit the .en
 $ nano .env
 ```
 
-Migrate the database, and seed it to test the app
-```bash
-$ php artisan migrate
-$ php artisan db:seed
-```
+Note that database should already be migrated and seeded
 
 Now that everything is ok you can start the tcp services to accept packages 
 ```bash
