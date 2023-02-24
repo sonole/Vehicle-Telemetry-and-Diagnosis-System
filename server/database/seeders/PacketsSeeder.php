@@ -32,7 +32,6 @@ class PacketsSeeder extends Seeder {
         return collect([
             '0' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947548',
                 'longitude' => '23.751152',
@@ -43,7 +42,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '3' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947408',
                 'longitude' => '23.750993',
@@ -54,7 +52,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '4' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.94738' ,
                 'longitude' => '23.750965',
@@ -65,7 +62,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '5' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.94736' ,
                 'longitude' => '23.750953',
@@ -76,7 +72,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '6' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947345',
                 'longitude' => '23.750953',
@@ -87,7 +82,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '7' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947332',
                 'longitude' => '23.750952',
@@ -98,7 +92,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '8' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947332',
                 'longitude' => '23.750957',
@@ -109,7 +102,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '9' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.94733' ,
                 'longitude' => '23.750983',
@@ -120,7 +112,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '10' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.94733' ,
                 'longitude' => '23.750983',
@@ -132,7 +123,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '11' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947362',
                 'longitude' => '23.750898',
@@ -143,7 +133,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '112' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.94744' ,
                 'longitude' => '23.750652',
@@ -154,7 +143,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '13' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947653',
                 'longitude' => '23.749947',
@@ -165,7 +153,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '14' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947987',
                 'longitude' => '23.749065',
@@ -176,7 +163,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '15' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.94803' ,
                 'longitude' => '23.748948',
@@ -187,7 +173,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '16' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947778',
                 'longitude' => '23.747873',
@@ -199,7 +184,6 @@ class PacketsSeeder extends Seeder {
             '17' => collect([
 
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947342',
                 'longitude' => '23.746753',
@@ -210,7 +194,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '18' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947222',
                 'longitude' => '23.746445',
@@ -221,7 +204,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '19' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947123',
                 'longitude' => '23.746233',
@@ -232,7 +214,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '20' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947108',
                 'longitude' => '23.746183',
@@ -244,7 +225,6 @@ class PacketsSeeder extends Seeder {
             '21' => collect([
 
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947073',
                 'longitude' => '23.746122',
@@ -256,7 +236,6 @@ class PacketsSeeder extends Seeder {
             '22' => collect([
 
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947075',
                 'longitude' => '23.746123',
@@ -268,7 +247,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '23' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947078',
                 'longitude' => '23.746115',
@@ -279,7 +257,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '24' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.947063',
                 'longitude' => '23.746073',
@@ -290,7 +267,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '25' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.946965',
                 'longitude' => '23.745843',
@@ -301,7 +277,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '26' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.94693' ,
                 'longitude' => '23.745798',
@@ -313,7 +288,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '27' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.946878',
                 'longitude' => '23.745743',
@@ -324,7 +298,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '28' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.946848',
                 'longitude' => '23.74571' ,
@@ -335,7 +308,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '29' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.946765',
                 'longitude' => '23.74555' ,
@@ -346,7 +318,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '30' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.94674' ,
                 'longitude' => '23.745497',
@@ -357,7 +328,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '31' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.946723',
                 'longitude' => '23.74543' ,
@@ -368,7 +338,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '32' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.94625' ,
                 'longitude' => '23.744402',
@@ -379,7 +348,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '33' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.946012',
                 'longitude' => '23.743962',
@@ -390,7 +358,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '34' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.945902',
                 'longitude' => '23.743777',
@@ -401,7 +368,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '35' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.945662',
                 'longitude' => '23.74353' ,
@@ -412,7 +378,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '36' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.945485',
                 'longitude' => '23.743437',
@@ -423,7 +388,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '37' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.944877',
                 'longitude' => '23.743447',
@@ -434,7 +398,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '38' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.943898',
                 'longitude' => '23.74374' ,
@@ -445,7 +408,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '39' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.943652',
                 'longitude' => '23.74379' ,
@@ -457,7 +419,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '40' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.943582',
                 'longitude' => '23.74383' ,
@@ -468,7 +429,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '41' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.943463',
                 'longitude' => '23.743743',
@@ -480,7 +440,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '42' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.94342' ,
                 'longitude' => '23.743693',
@@ -491,7 +450,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '422' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.943032',
                 'longitude' => '23.7427'  ,
@@ -502,7 +460,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '43' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.942847',
                 'longitude' => '23.741788',
@@ -513,7 +470,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '44' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.942815',
                 'longitude' => '23.741243',
@@ -524,7 +480,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '45' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.942845',
                 'longitude' => '23.741137',
@@ -535,7 +490,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '46' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.942853',
                 'longitude' => '23.740995',
@@ -546,7 +500,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '47' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.942768',
                 'longitude' => '23.740902',
@@ -557,7 +510,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '48' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.942633',
                 'longitude' => '23.740892',
@@ -568,7 +520,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '49' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.942367',
                 'longitude' => '23.740975',
@@ -579,7 +530,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '50' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.941545',
                 'longitude' => '23.741158',
@@ -591,7 +541,6 @@ class PacketsSeeder extends Seeder {
             '51' => collect([
 
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.940898',
                 'longitude' => '23.740995',
@@ -602,7 +551,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '52' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.940352',
                 'longitude' => '23.740885',
@@ -613,7 +561,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '53' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.939787',
                 'longitude' => '23.740922',
@@ -624,7 +571,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '54' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.938933',
                 'longitude' => '23.741183',
@@ -635,7 +581,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '55' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.938587',
                 'longitude' => '23.74134' ,
@@ -646,7 +591,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '56' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.93842' ,
                 'longitude' => '23.741445',
@@ -657,7 +601,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '57' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.93829' ,
                 'longitude' => '23.741542',
@@ -668,7 +611,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '10000' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.938187',
                 'longitude' => '23.741627',
@@ -679,7 +621,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '1212123' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.938105',
                 'longitude' => '23.74167' ,
@@ -690,7 +631,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '12312312' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.93803' ,
                 'longitude' => '23.741662',
@@ -701,7 +641,6 @@ class PacketsSeeder extends Seeder {
             ]),
             '1' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.937998',
                 'longitude' => '23.741578',
@@ -712,7 +651,6 @@ class PacketsSeeder extends Seeder {
             ]),
             'asfasf' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.93802' ,
                 'longitude' => '23.74148' ,
@@ -723,7 +661,6 @@ class PacketsSeeder extends Seeder {
             ]),
             'aa' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.938083',
                 'longitude' => '23.741402',
@@ -734,7 +671,6 @@ class PacketsSeeder extends Seeder {
             ]),
             'fasfa' => collect([
                 'sn' => 'rdt002',
-                'counter' =>fake()->unique()->numberBetween(int1: 0, int2: 1000),
                 'datetime' => Carbon::now()->format('Y-m-d H:i:s'),
                 'latitude' => '37.938112',
                 'longitude' => '23.741287',
