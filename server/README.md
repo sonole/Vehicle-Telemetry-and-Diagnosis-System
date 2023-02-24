@@ -7,9 +7,24 @@ $ cd  Vehicle-Telemetry-and-Diagnosis-System/server
 $ docker compose up -d
 $ docker exec -it server-app-1 /bin/bash
 $ composer install
-$ php artisan migrate
-$ php artisan db:seed
+```
+
+While you are still on the shell of the docker container you should edit the .env file
+```bash
 $ nano .env
 ```
-php artisan tcp:start  
-php artisan tcp:stop
+
+Migrate the database, and seed it to test the app
+```bash
+$ nano .env
+```
+
+Now that everything is ok you can start the tcp services to accept packages 
+```bash
+$ php artisan tcp:start 
+
+```
+This will wait for packages until stopped with the following command
+```bash
+$ php artisan tcp:stop
+```
