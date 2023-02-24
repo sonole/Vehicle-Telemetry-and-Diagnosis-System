@@ -11,7 +11,7 @@ class StopTCPServer extends Command
 
     public function handle()
     {
-        $pidFile = storage_path('app/tcp_server.pid');
+        $pidFile = storage_path('logs/tcp_server.pid');
 
         if (!file_exists($pidFile)) {
             $this->error('No running instances of StartTCPServer found.');
