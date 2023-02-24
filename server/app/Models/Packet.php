@@ -15,15 +15,13 @@ class Packet extends Model {
     use HasFactory;
 
     protected $fillable = [
-        'sn', 'counter', 'datetime',
+        'sn', 'datetime',
         'latitude', 'longitude', 'altitude', 'speed', 'course', 'satellites',
-        'accelerometer',
         'service1pid00', 'pids', 'dtc_status',
         'crc'
     ];
 
     protected $casts = [
-        'accelerometer' => 'array',
         'pids' => 'array',
     ];
 }
