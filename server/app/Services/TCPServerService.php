@@ -31,7 +31,7 @@ class TCPServerService
 
             $clientData = fread($clientSocket, 1024);
 
-            Redis::set('client_data', $clientData);
+            //Redis::set('client_data', $clientData);
 
             Log::info("Received data: $clientData");
 
