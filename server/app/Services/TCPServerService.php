@@ -10,7 +10,7 @@ class TCPServerService
 
     public function start()
     {
-        $this->socket = @stream_socket_server("tcp://0.0.0.0:8282", $errno, $errstr);
+        $this->socket = stream_socket_server("tcp://0.0.0.0:8282", $errno, $errstr);
 
         if (!$this->socket) {
             Log::error("Error starting server: $errstr");
@@ -20,7 +20,7 @@ class TCPServerService
         Log::info("Server started");
 
         while (true) {
-            $clientSocket = stream_socket_accept($this->socket, -1);
+            $clientSocket = @stream_socket_accept($this->socket, -1);
 
             if (!$clientSocket) {
                 Log::error("Error accepting client connection");
