@@ -1,5 +1,5 @@
 <div>
-<h1>(UNDER MAINTENANCE)</h1>
+<h1>(UNDER MAINTENANCE-REFACTORING)</h1>
 
 <h1>Vehicle Telemetry and Diagnosis System</h1>
 <p>Arduino Nano with CANBUS, GPS, GSM modules which send data at VPS with Telematic Web Application.<br>This project implements getting CAN-BUS data from vehicle and combing them with GPS location.<br>TCP/IP takes controls of the remote packets transmission and sends via GSM packets to Remote Server.</p>
