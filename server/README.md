@@ -1,6 +1,8 @@
+# This application is not complete, however it contains a foundation so that one can proceed to the desired implementation. 
+<img src="https://apaliampelos.me/assets/images/github/vehicle-telemetry-and-diagnosis-device/test_telematic_app.png" alt="Telematic App"/>
+
 ## Installation
 
-//maybe remove npm from php/Dockerfile
 ```bash
 $ git clone https://github.com/sonole/Vehicle-Telemetry-and-Diagnosis-System.git
 $ cd  Vehicle-Telemetry-and-Diagnosis-System/server
