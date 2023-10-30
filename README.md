@@ -25,7 +25,7 @@
 <ul>
   <li>for Client</li>
     <ol type="1">
-        <li>Arduino IDE + libraries installed</li> //TODO
+        <li>Arduino IDE + libraries installed</li>
         <li>Arduino Nano ATmega328</li>
         <li>GSM/GPRS Shield SIM900</li>
         <li>Ublox NEO-7M GPS Module </li>
